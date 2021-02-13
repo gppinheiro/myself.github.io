@@ -4,6 +4,16 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9672,3 +9682,31 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+    
+/* Project Area */ 
+
+.project-area{
+  padding: 4rem 0;
+}
+
+.project-area .button-group button{
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  font: normal 500 16px/130px var(--font-family-sans-serif);
+}
+
+.project-area .button-group button + button{
+  padding-left: 2rem;
+}
+
+.project-area .grid .our-project > .title h4{
+  font: normal 700 25px/12px var(--roboto);
+}
+
+.project-area .grid .our-project .img a:hover img{
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End Project Area */ 

@@ -9694,6 +9694,7 @@ textarea.form-control {
   border: none;
   text-transform: uppercase;
   font: normal 500 16px/130px var(--font-family-sans-serif);
+  outline:none;
 }
 
 .project-area .button-group button + button{
